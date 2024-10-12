@@ -19,12 +19,16 @@
 }
 
 :root {
+  --brand-color: #fb7413;
   --bg-color: #121417;
   --bg-card-color: #252d37;
-  --primary-color: #fff;
+
+  --primary-color: #cbd5e1;
   --secundary-color: #7c8798;
   --tertiary-color: #959eac;
-  --brand-color: #fb7413;
+
+  --wrong-answer: #ef4444;
+  --correct-answer: #84cc16;
 }
 
 #app {
@@ -35,6 +39,11 @@
   align-items: center;
   background: var(--bg-color);
   font-family: "LabGrotesque";
+  cursor: default;
+}
+
+#app::marker {
+  color: var(--brand-color);
 }
 
 .card {
@@ -116,5 +125,19 @@ button:hover {
   color: var(--primary-color);
   background: var(--brand-color);
   transition: 0.2s;
+}
+
+.card__score {
+  padding: 5rem;
+  font-size: 3rem;
+  color: var(--secundary-color);
+  background: var(--primary-color);
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 1rem var(--secundary-color);
+  margin-bottom: 1rem;
+}
+
+.card__score .score {
+  color: var(--correct-answer);
 }
 

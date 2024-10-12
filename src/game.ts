@@ -36,7 +36,7 @@ export default function init(e: Event) {
 					cardOptions.append(option);
 				}
 
-			} //else { score() };
+			} else { scoreboard() };
 		};
 
 		function checkAnswer(e: Event) {	
@@ -45,10 +45,11 @@ export default function init(e: Event) {
 				};
 				const cardElement = e.target.parentNode;
 				for (let opElement of cardElement.children) {						
+					opElement.style.color = 'var(--primary-color)';
 					if (Number(opElement.dataset.id) === questionsJson[currentQuestion].answer) {
-					opElement.style.backgroundColor = 'green';
+					opElement.style.backgroundColor = 'var(--correct-answer)';
 					} else {
-						opElement.style.backgroundColor = 'red';
+						opElement.style.backgroundColor = 'var(--wrong-answer)';
 					};
 				};
 				currentQuestion++;
@@ -58,6 +59,23 @@ export default function init(e: Event) {
 
 		function cleanCard() {
 			card.innerHTML = ''
+		};
+
+		function scoreboard() {
+			cleanCard();
+
+			const scoreboardElement = document.createElement('div');
+			scoreboardElement.classList.add('card__score');
+			scoreboardElement.innerHTML = `<span class="score">${score}</span>/<span>${totalOfQuestions}</span>`;
+			
+			card.innerHTML = `
+				<h1>
+		      <img src=${footballIcon} alt="football icon" />
+		      FutQuiz
+		    </h1>
+		    <p style="font-size: 1.5rem;">Você acertou<p>
+	    `
+			card.append(scoreboardElement);
 		};
 
 		loadQuestion(currentQuestion);
