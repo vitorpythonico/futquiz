@@ -1,0 +1,23 @@
+{
+	"1": {
+		"description": "Quem venceu a primeira Copa do Mundo?",
+		"options": {
+			"1": "Inglaterra",
+			"2": "Alemanha",
+			"3": "Uruguai",
+			"4": "Itália"
+		},
+		"answer": 3
+	},
+
+	"2": {
+		"description": "Qual é o maior vencedor da Libertadores?",
+		"options": {
+			"1": "Independiente",
+			"2": "Boca Juniors",
+			"3": "Peñarol",
+			"4": "Santos"
+		},
+		"answer": 1
+	}
+}
