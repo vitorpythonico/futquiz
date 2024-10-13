@@ -107,6 +107,10 @@ export default function init(e: Event) {
 			scoreboardElement.classList.add('card__score');
 			scoreboardElement.innerHTML = `<span class="score">${score}</span>/<span>${totalOfQuestions}</span>`;
 			
+			const restartBtnElement = document.createElement('button');
+			restartBtnElement.innerText = 'Reiniciar';
+			restartBtnElement.addEventListener('click', init);
+
 			card.innerHTML = `
 				<h1>
 		      <img src=${footballIcon} alt="football icon" />
@@ -115,6 +119,7 @@ export default function init(e: Event) {
 		    <p id="scoreboard_message">Você acertou<p>
 	    `
 			card.append(scoreboardElement);
+			card.append(restartBtnElement);
 		};
 
 		loadQuestion(currentQuestion);
