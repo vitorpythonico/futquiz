@@ -6,10 +6,10 @@ FutQuiz é um simples jogo estilo quiz com perguntas baseadas apenas no universo
 ## Como instalar
 1. Clone o repositório
 ```bash
-git clone https://github.com/vitorpythonico/REPO_AQUI
+git clone https://github.com/vitorpythonico/futquiz.git
 ```
 
-2.Baixar dependências
+2. Baixar dependências
 ```bash
 npm install
 ```
