@@ -9,7 +9,7 @@ FutQuiz é um simples jogo estilo quiz com perguntas baseadas apenas no universo
 git clone https://github.com/vitorpythonico/REPO_AQUI
 ```
 
-2.Baixar dependências
+2. Baixar dependências
 ```bash
 npm install
 ```
