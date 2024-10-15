@@ -1,5 +1,5 @@
-{
-	"1": {
+[
+	{
 		"description": "Quem venceu a primeira Copa do Mundo?",
 		"options": {
 			"1": "Inglaterra",
@@ -9,8 +9,7 @@
 		},
 		"answer": 3
 	},
-
-	"2": {
+	{
 		"description": "Qual é o maior vencedor da Libertadores?",
 		"options": {
 			"1": "Independiente",
@@ -20,4 +19,4 @@
 		},
 		"answer": 1
 	}
-}
+]

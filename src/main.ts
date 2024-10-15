@@ -1,7 +1,7 @@
 import footballIcon from './assets/football-icon.png';
 import init from './game.ts';
 
-document.querySelector<HTMLMainElement>("#app")!.innerHTML = `
+document.querySelector("#app")!.innerHTML = `
   <article class="card">
     <h1>
       <img src=${footballIcon} alt="football icon" />
@@ -11,4 +11,4 @@ document.querySelector<HTMLMainElement>("#app")!.innerHTML = `
     <button>Iniciar</button>
   </article>
 `
-document.querySelector<HTMLButtonElement>('button').addEventListener('click', init);
+document.querySelector('button')!.addEventListener('click', init);
