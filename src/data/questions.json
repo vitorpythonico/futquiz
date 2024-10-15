@@ -10,13 +10,93 @@
 		"answer": 3
 	},
 	{
-		"description": "Qual é o maior vencedor da Libertadores?",
+		"description": "Qual clube é o maior vencedor da Libertadores?",
 		"options": {
-			"1": "Independiente",
-			"2": "Boca Juniors",
-			"3": "Peñarol",
+			"1": "Boca Juniors",
+			"2": "Peñarol",
+			"3": "Independiente",
 			"4": "Santos"
 		},
+		"answer": 3
+	},
+	{
+		"description": "Como se chamava o clube Palmeiras?",
+		"options": {
+			"1": "São Paulo Futebol Clube",
+			"2": "Palestra Itália",
+			"3": "Club Athletico Paulistano",
+			"4": "Alviverde Paulistano"
+		},
+		"answer": 2
+	},
+	{
+		"description": "Qual clube tem mais títulos da Premier League (até 2024)?",
+		"options": {
+			"1": "Manchester United",
+			"2": "Chelsea",
+			"3": "Liverpool",
+			"4": "Arsenal"
+		},
 		"answer": 1
+	},
+	{
+		"description": "Qual foi o resultado da final da Copa do Mundo de 1958 entre Brasil e Suêcia?",
+		"options": {
+			"1": "Brasil 2-1 Suécia",
+			"2": "Brasil 2-0 Suécia",
+			"3": "Brasil 4-1 Suécia",
+			"4": "Brasil 5-2 Suécia"
+		},
+		"answer": 4
+	},
+	{
+		"description": "Qual o único país a participar de todas as Copas do Mundo?",
+		"options": {
+			"1": "Brasil",
+			"2": "Alemanha",
+			"3": "Argentina",
+			"4": "Inglaterra"
+		},
+		"answer": 1
+	},
+	{
+		"description": "Qual clube foi o primeiro a conquistar o Mundial de Clubes da FIFA?",
+		"options": {
+			"1": "Real Madrid",
+			"2": "Palmeiras",
+			"3": "Manchester United",
+			"4": "Peñarol"
+		},
+		"answer": 1
+	},
+	{
+		"description": "Qual foi o país anfitrião da Copa do Mundo de 1998?",
+		"options": {
+			"1": "Alemanha",
+			"2": "França",
+			"3": "México",
+			"4": "Itália"
+		},
+		"answer": 2
+	},
+	{
+		"description": "Quem é o maior artilheiro da história da Liga dos Campeões da UEFA?",
+		"options": {
+			"1": "Lionel Messi",
+			"2": "Karim Benzema",
+			"3": "Robert Lewandowski",
+			"4": "Cristiano Ronaldo"
+		},
+		"answer": 4
+	},
+	{
+		"description": "Quem é o jogador com mais partidas pela Seleção Brasileira?",
+		"options": {
+			"1": "Pelé",
+			"2": "Neymar",
+			"3": "Romário",
+			"4": "Ronaldo Fenômeno"
+		},
+		"answer": 2
 	}
 ]

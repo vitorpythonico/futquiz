@@ -9,10 +9,9 @@ interface IQuestions {
 	answer: number;
 }
 
-const questions: IQuestions[] = questionsJson;
-
-export default function init(e: Event) {
+export default function init() {
 	const card = document.querySelector('.card') as HTMLElement;
+	const questions: IQuestions[] = questionsJson;
 	let totalOfQuestions = questions.length;
 	let currentQuestion = 0;
 	let score = 0;
